@@ -1,0 +1,59 @@
+.best-artists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 111px;
+}
+
+#best-artists h2 {
+  text-align: center;
+  margin: 151px 0 120px 0;
+}
+
+.best-artist {
+  display: flex;
+  align-items: center;
+  background-color: var(--card-color);
+  width: 350px;
+  height: 150px;
+  gap: 40px;
+  padding: 25px 20px;
+}
+
+.best-artist img {
+  width: 100px;
+  height: 100px;
+}
+
+.best-artist p {
+  margin-bottom: 10px;
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.best-artist p:nth-child(2) {
+  color: var(--color-logo);
+}
+
+.highlight {
+  background-color: var(--color-logo);
+  color: var(--text-color);
+}
+
+.highlight p:nth-child(2) {
+  color: var(--text-color);
+}
+
+.show-artists {
+  margin-top: 60px;
+}
+
+.show-artists a {
+  color: var(--text-color);
+  font-size: 1.25rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}

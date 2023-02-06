@@ -1,0 +1,51 @@
+#popular {
+  margin-top: 55px;
+}
+
+h2 {
+  font-size: 3.125rem;
+  color: var(--text-color);
+}
+
+h2 span {
+  color: var(--color-logo);
+}
+
+.artists {
+  margin-top: 172px;
+  display: flex;
+  color: var(--text-color);
+  gap: 17.31rem;
+}
+
+.artists p:nth-child(2) {
+  color: var(--color-logo);
+}
+
+.artist-title,
+.artist-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artist-title {
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-bottom: 82px;
+}
+
+.artist-name {
+  color: var(--subtitle-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.artist-image {
+  margin-bottom: 50px;
+}
+
+.divider-middle {
+  border-right: 1px solid var(--subtitle-color);
+}
